@@ -1,0 +1,175 @@
+body {
+    margin: 0;
+    padding: 0px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family:'arial', times;
+    background: linear-gradient(to right, rgb( 246, 221, 204), white);
+}
+
+.header {
+    width: 100%;
+    height: 50px;
+    background: linear-gradient(to right, rgb(1, 1, 15), rgb(153, 150, 150));
+
+}
+.encabezado {
+    padding: 10px;
+    display: table;
+    align-items: center;
+    margin-bottom: -30px;
+}
+.titulo {
+    font-size: 40px;
+    margin-left: 360px;
+    margin-top: 2px;
+	
+}
+.centrarT{
+    font-size: 40px;
+    margin-left: 40%;
+    margin-top: 0px;
+	
+}
+.centrarImg {
+    font-size: 40px;
+    margin-left: 45%;
+    margin-top: 2px;
+}
+.t{
+	text-align: center;
+}
+.centrar{
+    /*font-size: 40px; */
+    margin-left: 40%;
+    margin-top: 0px;
+}
+.fils {
+    display: table-row;
+}
+
+.cols {
+    display: table-cell
+}
+
+.input {
+    margin-top: 6px;
+    width: 270px;
+    height: 20px;
+    text-align: center;
+    border-radius: 5px;
+    outline: none;
+    background: rgb(234, 237, 237);
+    font-weight: bold;
+}
+p {
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.text-area {
+    margin-top: 10px; 
+    width: 700px;
+    height: 50px;
+    text-align: center;
+    margin-left: 270px;
+    border-radius: 20px;
+    outline: none;
+    resize: none;
+    background: rgb(253, 235, 208);
+    font-weight: bold;
+}
+
+::placeholder {
+    font-family: 'arial', times;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 10px;
+}
+.par {
+    text-align: center;
+    margin-bottom: -5px;
+}
+
+.fotos {
+    padding: 10px;
+    display: table;
+    align-items: center;
+    margin-bottom: -30px;
+}
+
+.container {
+    display: table;
+    text-align: center;
+}
+
+.imagen {
+    width:150px;
+    height:150px;
+    border-radius:150px;
+    margin-left: 80px;
+    object-fit: cover;
+} 
+
+:root{
+    --facebook: #0080FF;
+    --instagram: #FA5858;
+	--twitter: #0489B1;
+}
+
+.redsocial{
+    display: flex;
+    margin-left: 540px;
+}
+
+.redsocial ul li {
+    display: inline-block;
+    margin: 0;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+}
+
+.redsocial ul li a {
+    display: block;
+    color: black;
+    line-height: 50px;
+    font-size: 25px;
+    box-shadow: 0 3px 5px 0px rgba(0, 0, 0, .2);
+    transition: .2s;
+    border-radius: 30px;
+}
+
+.redsocial ul:hover a {
+    filter: blur(2px);  
+}
+
+.redsocial ul li a:hover {
+    transform: translateY(-3px) scale(1.05);
+    box-shadow: 0 5px 5 px 0px rgba(0, 0, 0, .4);
+    filter: none;
+}
+
+.redsocial ul li .facebook:hover {
+    background: var(--facebook);
+}
+
+.redsocial ul li .instagram:hover {
+    background: var(--instagram);
+}
+.redsocial ul li .twitter:hover {
+    background: var(--twitter);
+}
+
+.foot{
+  clear: both;/* Permite que el contenido baje al fondo de la pagina*/
+  text-align: center;
+  padding: 20px;
+  border-top: 2px solid #5387f7;
+  background: rgb(239, 82, 75 );
+}
+
+
+}
